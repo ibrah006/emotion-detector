@@ -14,12 +14,3 @@ Technologies Used
     Python: Core logic for emotion detection and text processing.
     HTML/CSS: For front-end structure and styling.
     JavaScript (optional): For handling dynamic elements, if required.
-
-
-Setup Instructions
-
-To run this application locally, follow the steps below:
-
-1. Clone the Repository
-  git clone https://github.com/yourusername/emotion-detection-flask.git
-  cd emotion-detection-flask
