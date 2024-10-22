@@ -14,3 +14,36 @@ Technologies Used
     Python: Core logic for emotion detection and text processing.
     HTML/CSS: For front-end structure and styling.
     JavaScript (optional): For handling dynamic elements, if required.
+
+# Setup Instructions
+To run this application locally, follow the steps below:
+Be sure that Python is installed in your system.
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/ibrah006/emotion-detector.git
+    cd emotion-detector
+    ```
+
+2. Create a virtual environment (optional but recommended):
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+3. Install required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Run the Flask application:
+   ```bash
+   python3.11 server.py
+   ```
+6. Finally, Open your browser: Navigate to http://127.0.0.1:5000/ to access the application.
+
+# Usage
+1. Enter text into the input field.
+2. Submit the form to analyze the emotion within the text.
+3. The application will display the detected emotion along with a confidence score.
+
+# Contributing
+Feel free to submit issues or contribute to the project via pull requests. Any enhancements or bug fixes are welcome!
