@@ -32,7 +32,8 @@ Be sure that Python is installed in your system.
    ```
 3. Install required dependencies:
    ```bash
-   pip install -r requirements.txt
+   pip install flask
+   pip install requests
    ```
 4. Run the Flask application:
    ```bash
